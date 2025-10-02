@@ -15,4 +15,12 @@
     <color name="qr_result_background">#E1E3E5</color>
 
     <color name="red">#ff0000</color>
+    
+    <!-- NeuroX.AI Brand Colors -->
+    <color name="neurox_primary">#00D4FF</color>
+    <color name="neurox_primary_dark">#0EA5E9</color>
+    <color name="neurox_background">#1A1A2E</color>
+    <color name="neurox_surface">#16213E</color>
+    <color name="neurox_accent">#FF6B6B</color>
+    <color name="neurox_warning">#FFD700</color>
 </resources>

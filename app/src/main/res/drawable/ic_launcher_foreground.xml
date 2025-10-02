@@ -1,33 +1,81 @@
 <!--
-  Copyright (C) 2021 Google Inc.
+  Copyright (C) 2025 Vishwakarma Industries
 
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
+  NeuroX.AI Camera App Icon
+  AI-powered camera with neural network design
   -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <group
-        android:scaleX="2.079"
-        android:scaleY="2.079"
-        android:translateX="29.052"
-        android:translateY="31.131">
+    
+    <!-- Neural Network Background Pattern -->
+    <group android:translateX="54" android:translateY="54">
+        <!-- Neural nodes as small circles using path -->
+        <path android:fillColor="#16213E" 
+              android:pathData="M-25,-20 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"/>
+        <path android:fillColor="#16213E" 
+              android:pathData="M25,-20 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"/>
+        <path android:fillColor="#16213E" 
+              android:pathData="M-25,20 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"/>
+        <path android:fillColor="#16213E" 
+              android:pathData="M25,20 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"/>
+        
+        <!-- Neural connections -->
+        <path android:strokeColor="#16213E" android:strokeWidth="0.5" 
+              android:pathData="M-25,-20 L25,-20 M-25,20 L25,20 M-25,-20 L-25,20 M25,-20 L25,20 M-25,-20 L25,20 M25,-20 L-25,20"/>
+    </group>
+    
+    <!-- Main Camera Body -->
+    <group android:translateX="54" android:translateY="54">
+        <!-- Camera body -->
         <path
-            android:fillColor="#000000"
-            android:pathData="M12,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+            android:fillColor="#00D4FF"
+            android:pathData="M-18,-12 L18,-12 C20,-12 22,-10 22,-8 L22,8 C22,10 20,12 18,12 L-18,12 C-20,12 -22,10 -22,8 L-22,-8 C-22,-10 -20,-12 -18,-12 Z"/>
+        
+        <!-- Camera lens outer ring -->
         <path
-            android:fillColor="#000000"
-            android:pathData="M20,4h-3.17l-1.24,-1.35c-0.37,-0.41 -0.91,-0.65 -1.47,-0.65L9.88,2c-0.56,0 -1.1,0.24 -1.48,0.65L7.17,4L4,4c-1.1,0 -2,0.9 -2,2v12c0,1.1 0.9,2 2,2h16c1.1,0 2,-0.9 2,-2L22,6c0,-1.1 -0.9,-2 -2,-2zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5z"/>
+            android:fillColor="#0EA5E9"
+            android:pathData="M0,0 m-10,0 a10,10 0,1 1,20 0 a10,10 0,1 1,-20 0"/>
+        
+        <!-- Camera lens inner -->
+        <path
+            android:fillColor="#1A1A2E"
+            android:pathData="M0,0 m-7,0 a7,7 0,1 1,14 0 a7,7 0,1 1,-14 0"/>
+        
+        <!-- Lens center with AI symbol -->
+        <path
+            android:fillColor="#00D4FF"
+            android:pathData="M0,0 m-4,0 a4,4 0,1 1,8 0 a4,4 0,1 1,-8 0"/>
+        
+        <!-- AI neural pattern in lens -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1"
+            android:pathData="M-2,-2 L2,2 M2,-2 L-2,2"/>
+        
+        <!-- Flash -->
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M12,-6 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"/>
+        
+        <!-- Brand accent -->
+        <path
+            android:fillColor="#FF6B6B"
+            android:pathData="M-20,-8 L-16,-8 L-16,-6 L-20,-6 Z"/>
+    </group>
+    
+    <!-- NeuroX branding elements -->
+    <group android:translateX="54" android:translateY="80">
+        <!-- Small neural network indicator -->
+        <path android:fillColor="#00D4FF" 
+              android:pathData="M-8,0 m-1,0 a1,1 0,1 1,2 0 a1,1 0,1 1,-2 0"/>
+        <path android:fillColor="#00D4FF" 
+              android:pathData="M0,0 m-1,0 a1,1 0,1 1,2 0 a1,1 0,1 1,-2 0"/>
+        <path android:fillColor="#00D4FF" 
+              android:pathData="M8,0 m-1,0 a1,1 0,1 1,2 0 a1,1 0,1 1,-2 0"/>
+        <path android:strokeColor="#00D4FF" android:strokeWidth="0.5" 
+              android:pathData="M-8,0 L0,0 L8,0"/>
     </group>
 </vector>

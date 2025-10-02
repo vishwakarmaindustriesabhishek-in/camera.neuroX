@@ -1,0 +1,72 @@
+<!--
+  Copyright (C) 2025 Vishwakarma Industries
+  
+  NeuroX.AI Splash Screen Logo
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M60,60 m-55,0 a55,55 0,1 1,110 0 a55,55 0,1 1,-110 0"/>
+    
+    <!-- Main Camera Body -->
+    <group android:translateX="60" android:translateY="60">
+        <!-- Camera body -->
+        <path
+            android:fillColor="#00D4FF"
+            android:pathData="M-20,-14 L20,-14 C22,-14 24,-12 24,-10 L24,10 C24,12 22,14 20,14 L-20,14 C-22,14 -24,12 -24,10 L-24,-10 C-24,-12 -22,-14 -20,-14 Z"/>
+        
+        <!-- Camera lens outer ring -->
+        <path
+            android:fillColor="#0EA5E9"
+            android:pathData="M0,0 m-12,0 a12,12 0,1 1,24 0 a12,12 0,1 1,-24 0"/>
+        
+        <!-- Camera lens inner -->
+        <path
+            android:fillColor="#1A1A2E"
+            android:pathData="M0,0 m-9,0 a9,9 0,1 1,18 0 a9,9 0,1 1,-18 0"/>
+        
+        <!-- Lens center with AI symbol -->
+        <path
+            android:fillColor="#00D4FF"
+            android:pathData="M0,0 m-6,0 a6,6 0,1 1,12 0 a6,6 0,1 1,-12 0"/>
+        
+        <!-- AI neural pattern -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.5"
+            android:pathData="M-3,-3 L3,3 M3,-3 L-3,3 M-3,0 L3,0 M0,-3 L0,3"/>
+        
+        <!-- Flash -->
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M14,-8 m-3,0 a3,3 0,1 1,6 0 a3,3 0,1 1,-6 0"/>
+        
+        <!-- Brand accent -->
+        <path
+            android:fillColor="#FF6B6B"
+            android:pathData="M-22,-10 L-18,-10 L-18,-6 L-22,-6 Z"/>
+    </group>
+    
+    <!-- Neural network connections around the camera -->
+    <group android:translateX="60" android:translateY="60">
+        <!-- Outer neural nodes -->
+        <path android:fillColor="#00D4FF" 
+              android:pathData="M-35,-25 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"/>
+        <path android:fillColor="#00D4FF" 
+              android:pathData="M35,-25 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"/>
+        <path android:fillColor="#00D4FF" 
+              android:pathData="M-35,25 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"/>
+        <path android:fillColor="#00D4FF" 
+              android:pathData="M35,25 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"/>
+        
+        <!-- Neural connections -->
+        <path android:strokeColor="#00D4FF" android:strokeWidth="1" 
+              android:pathData="M-35,-25 L-20,-14 M35,-25 L20,-14 M-35,25 L-20,14 M35,25 L20,14"/>
+    </group>
+</vector>

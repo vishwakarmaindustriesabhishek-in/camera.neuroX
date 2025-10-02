@@ -1,0 +1,45 @@
+<!--
+  Copyright (C) 2025 Vishwakarma Industries
+  
+  NeuroX.AI Camera App Monochrome Icon
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Main Camera Body -->
+    <group android:translateX="54" android:translateY="54">
+        <!-- Camera body -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M-18,-12 L18,-12 C20,-12 22,-10 22,-8 L22,8 C22,10 20,12 18,12 L-18,12 C-20,12 -22,10 -22,8 L-22,-8 C-22,-10 -20,-12 -18,-12 Z"/>
+        
+        <!-- Camera lens outer ring -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M0,0 m-10,0 a10,10 0,1 1,20 0 a10,10 0,1 1,-20 0"/>
+        
+        <!-- Camera lens inner (white for contrast) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M0,0 m-7,0 a7,7 0,1 1,14 0 a7,7 0,1 1,-14 0"/>
+        
+        <!-- Lens center -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M0,0 m-4,0 a4,4 0,1 1,8 0 a4,4 0,1 1,-8 0"/>
+        
+        <!-- AI neural pattern in lens -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1"
+            android:pathData="M-2,-2 L2,2 M2,-2 L-2,2"/>
+        
+        <!-- Flash -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M12,-6 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"/>
+    </group>
+</vector>

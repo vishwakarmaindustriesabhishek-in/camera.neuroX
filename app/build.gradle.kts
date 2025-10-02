@@ -43,14 +43,14 @@ android {
     buildToolsVersion = "36.0.0"
     ndkVersion = "28.2.13676358"
 
-    namespace = "app.grapheneos.camera"
+    namespace = "app.vishwakarma.neuroXcamera"
 
     defaultConfig {
-        applicationId = "app.grapheneos.camera"
+        applicationId = "app.vishwakarma.neuroXcamera"
         minSdk = 29
         targetSdk = 35
-        versionCode = 90
-        versionName = versionCode.toString()
+        versionCode = 1
+        versionName = "1.0"
     }
 
     buildTypes {
@@ -61,12 +61,12 @@ android {
             if (useKeystoreProperties) {
                 signingConfig = signingConfigs.getByName("release")
             }
-            resValue("string", "app_name", "Camera")
+            resValue("string", "app_name", "NeuroX.AI")
         }
 
         getByName("debug") {
             applicationIdSuffix = ".dev"
-            resValue("string", "app_name", "Camera d")
+            resValue("string", "app_name", "NeuroX.AI d")
             // isDebuggable = false
         }
 
